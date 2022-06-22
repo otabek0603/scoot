@@ -1,0 +1,55 @@
+// - - - - HEADER - - - -
+
+.header {
+    padding-top: 22px;
+    padding-bottom: 21px;
+
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__top-title{
+        display: flex;
+    }
+
+    &__title-link {
+        margin-right: 58px;
+
+    }
+
+    &__title-img {
+        width: 107px;
+        height: 28px;
+    }
+
+    &__nav-list {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        gap: 32px;
+    }
+
+    &__item-link{
+        text-decoration: none;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+
+        &:hover{
+            color: #FCB72B;
+        }
+    }
+
+    &__top-button{
+        &:hover{
+            background: transparent;
+            color: #FCB72B;
+            box-shadow: 0 0 0 3px #FCB72B;
+        }
+    }
+}
